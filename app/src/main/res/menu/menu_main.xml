@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.asc.paises3.MainActivity">
+    <item
+        android:id="@+id/settingsFragment"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/acercaDeFragment"
+        android:name="com.asc.paises3.AcercaDeFragment"
+        android:label="@string/acerca_de"
+        android:layout="@layout/fragment_acerca_de"
+        android:title="@string/acerca_de" />
+    <item
+        android:id="@+id/juega"
+        android:title="@string/Juega" />
+
+
+</menu>
